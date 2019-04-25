@@ -1,0 +1,29 @@
+body {
+  background-color: #5e5ef3;
+}
+@media (min-width: 500px) {
+  body {
+    background: lightgreen;
+  }
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.menu-button {
+  left: 20px;
+  cursor: pointer;
+}
+nav button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 15vh;
+  background-color: #81C784;
+  border: 1px solid #004D40;
+  font-size: 32px;
+  padding: 30px 0;
+  z-index: 2;
+}

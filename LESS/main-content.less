@@ -1,0 +1,51 @@
+h2 {
+    font-size: 3rem;
+    margin-top: 30px;
+    font-family: @headerFont;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: @redColor;
+    
+}
+@media @desktop {
+    .firstContent, .secondContent, .thirdContent, .fourthContent {
+        background-color: @greenColor;
+        color:black;
+        display:flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 80%;
+        height: 10%
+    }
+}
+p {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: @contentFont;
+    border: 1px dashed @blackColor;
+}
+
+.landing-page-content {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+   
+}
+@media @desktop {
+    .landing-page-content {
+        background-color: @greenColor;
+        margin-top: 30px;
+        width:60%;
+        flex-wrap: wrap;
+        margin-left: 20%;
+        padding-bottom: 30px;
+    }
+}
+
+
+

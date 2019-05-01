@@ -9,16 +9,13 @@ h2 {
     
 }
 @media @desktop {
-    .firstContent, .secondContent, .thirdContent, .fourthContent {
-        background-color: @greenColor;
-        color:black;
-        display:flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 80%;
-        height: 10%
+    h2 {
+        margin-right:0%;
+        margin-left:0%;
+        width:45%
     }
 }
+
 p {
     font-size: 1.5rem;
     margin-top: 15px;
@@ -26,6 +23,13 @@ p {
     margin-right: 10%;
     font-family: @contentFont;
     border: 1px dashed @blackColor;
+}
+@media @desktop {
+    p {
+        margin-right:0%;
+        margin-left:0%;
+        width:45%
+    }
 }
 
 .landing-page-content {
@@ -38,12 +42,14 @@ p {
 }
 @media @desktop {
     .landing-page-content {
+        display: flex;
         background-color: @greenColor;
         margin-top: 30px;
         width:60%;
         flex-wrap: wrap;
         margin-left: 20%;
         padding-bottom: 30px;
+        flex-direction: row;
     }
 }
 

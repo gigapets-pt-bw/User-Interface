@@ -233,10 +233,10 @@ h2 {
   font-size: 3rem;
   margin-top: 30px;
   font-family: 'Londrina Shadow', cursive;
-  font-weight: bold;
+  font-weight: bolder;
   margin-left: 10%;
   margin-right: 10%;
-  color: #EA526F;
+  color: #31393C;
 }
 @media (min-width: 550px) {
   h2 {
@@ -267,7 +267,7 @@ p {
 }
 @media (min-width: 550px) {
   .landing-page-content {
-    background-color: #8AC926;
+    background: rgba(255, 255, 255, 0.4);
     margin-top: 30px;
     width: 60%;
     flex-wrap: wrap;

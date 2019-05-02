@@ -132,8 +132,13 @@ body {
 @media (min-width: 550px) {
   body {
     background-image: url('../Assets/treesBackground.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
+  }
+  .aboutUsBody {
+    background-image: url('../Assets/treesBackground.jpg');
+    background-repeat: repeat;
+    background-size: contain;
   }
 }
 header {
@@ -238,6 +243,14 @@ h2 {
   margin-right: 10%;
   color: #31393C;
 }
+h3 {
+  font-size: 3rem;
+  margin-top: 30px;
+  font-family: 'Londrina Shadow', cursive;
+  font-weight: bolder;
+  color: #31393C;
+  margin-left: 2%;
+}
 @media (min-width: 550px) {
   h2 {
     margin-right: 0%;
@@ -251,6 +264,15 @@ p {
   margin-left: 10%;
   margin-right: 10%;
   font-family: 'Capriola', sans-serif;
+}
+@media (min-width: 550px) {
+  .aboutUs p {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+  }
 }
 @media (min-width: 550px) {
   p {
@@ -275,6 +297,60 @@ p {
     padding-bottom: 30px;
     flex-direction: row;
     align-items: flex-start;
+  }
+}
+.profilePics {
+  width: 180px;
+  height: 180px;
+}
+@media (min-width: 550px) {
+  .profilePics {
+    width: 300px;
+    height: 300px;
+  }
+}
+#jamesHeadshot {
+  width: 180px;
+  height: 270px;
+}
+@media (min-width: 550px) {
+  width: 400px;
+  height: 600px;
+}
+.profileName {
+  width: 40%;
+  line-height: 5rem;
+}
+@media (min-width: 550px) {
+  .profileName {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.picNameTitle1 {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 2%;
+  justify-content: space-between;
+  margin-right: 2%;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+}
+.picNameTitle2 {
+  display: flex;
+  margin-top: 50px;
+  margin-right: 2%;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+}
+@media (min-width: 550px) {
+  .picNameTitle1,
+  .picNameTitle2 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 footer {

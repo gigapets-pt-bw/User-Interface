@@ -219,10 +219,10 @@ h1 {
 @media (min-width: 550px) {
   .menuOptions {
     display: flex;
-    height: 6vh;
+    height: 100px;
     width: 40%;
     padding: 10px, 10px, 10px, 10px;
-    font-size: 2rem;
+    font-size: 3.5rem;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
@@ -277,6 +277,7 @@ p {
     margin-right: auto;
     background: rgba(255, 255, 255, 0.4);
     padding: 20px;
+    margin-top: 100px;
   }
 }
 @media (min-width: 550px) {
@@ -296,7 +297,7 @@ p {
 @media (min-width: 550px) {
   .landing-page-content {
     background: rgba(255, 255, 255, 0.4);
-    margin-top: 30px;
+    margin-top: 100px;
     width: 60%;
     flex-wrap: wrap;
     margin-left: 20%;
@@ -337,7 +338,7 @@ p {
 }
 .picNameTitle1 {
   display: flex;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-left: 2%;
   justify-content: space-between;
   margin-right: 2%;
@@ -370,4 +371,5 @@ footer {
 small {
   margin-top: 15px;
   margin-bottom: 20px;
+  font-size: 2rem;
 }

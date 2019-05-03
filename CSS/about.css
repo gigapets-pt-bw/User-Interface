@@ -157,6 +157,7 @@ h1 {
   h1 {
     margin-left: 10%;
     margin-right: 10%;
+    font-size: 9rem;
   }
 }
 .header-image {
@@ -182,8 +183,6 @@ h1 {
   flex-direction: column;
   width: 30rem;
   height: 60vh;
-  background-color: #FFCA3A;
-  border: 3px solid #EA526F;
   padding: 30px 0;
   position: absolute;
   z-index: 2;
@@ -210,7 +209,7 @@ h1 {
   width: 77%;
   height: 16vh;
   background-color: #00A6FB;
-  border: 2px solid #8AC926;
+  border: 10px solid #FFCA3A;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -252,10 +251,16 @@ h3 {
   margin-left: 2%;
 }
 @media (min-width: 550px) {
+  h3 {
+    font-size: 5rem;
+  }
+}
+@media (min-width: 550px) {
   h2 {
     margin-right: 0%;
     margin-left: 0%;
     width: 45%;
+    font-size: 5rem;
   }
 }
 p {
@@ -279,6 +284,7 @@ p {
     margin-right: 0%;
     margin-left: 0%;
     width: 45%;
+    font-size: 2.5rem;
   }
 }
 .landing-page-content {
@@ -314,8 +320,10 @@ p {
   height: 270px;
 }
 @media (min-width: 550px) {
-  width: 400px;
-  height: 600px;
+  #jamesHeadshot {
+    width: 200px;
+    height: 300px;
+  }
 }
 .profileName {
   width: 40%;

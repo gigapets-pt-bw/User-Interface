@@ -17,12 +17,18 @@ h3 {
     color: @blackColor;
     margin-left: 2%;
 }
+@media @desktop {
+    h3 {
+        font-size: 5rem;
+    }
+}
 
 @media @desktop {
     h2 {
         margin-right:0%;
         margin-left:0%;
-        width:45%
+        width:45%;
+        font-size: 5rem;
     }
 }
 
@@ -47,7 +53,8 @@ p {
     p {
         margin-right:0%;
         margin-left:0%;
-        width:45%
+        width:45%;
+        font-size: 2.5rem;
     }
 }
 
@@ -93,8 +100,11 @@ p {
     height: 270px;
 }
 @media @desktop {
-    width: 400px;
-    height: 600px;
+    #jamesHeadshot {
+        width: 200px;
+        height: 300px;
+    }
+    
 }
 .profileName {
     width:40%;
